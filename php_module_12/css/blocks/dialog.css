@@ -1,0 +1,59 @@
+.dialog {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  min-width: 700px;
+  border: none;
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dialog__form {
+  padding: 50px 20px 20px;
+}
+
+.dialog__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.dialog__close::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 16px;
+  background-color: currentColor;
+  transform-origin: center;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.dialog__close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 16px;
+  background-color: currentColor;
+  transform-origin: center;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.dialog__button {
+  margin: auto 0 0;
+  width: 100%;
+}
+
+.dialog::backdrop {
+  backdrop-filter: blur(3px);
+}

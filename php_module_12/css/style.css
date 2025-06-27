@@ -1,0 +1,18 @@
+/* Global */
+/* ------------------------------------ */
+@import "./global/normalize.css";
+@import "./global/reboot.css";
+@import "./global/container.css";
+@import "./global/visually-hidden.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "./blocks/header.css";
+@import "./blocks/hero.css";
+@import "./blocks/price-list.css";
+@import "./blocks/project-templates.css";
+@import "./blocks/outro.css";
+@import "./blocks/socials.css";
+@import "./blocks/footer.css";
+@import "./blocks/button.css";
+@import "./blocks/dialog.css";

@@ -1,0 +1,45 @@
+.header {
+  padding: 52px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1;
+  color: inherit;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__phone {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1;
+  color: inherit;
+}
+
+.header__phone:hover {
+  text-decoration: underline;
+}
