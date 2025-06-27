@@ -1,0 +1,32 @@
+.price-list {
+  padding: 0 0 248px;
+}
+
+.price-list__heading {
+  margin: 0 0 84px;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 1;
+}
+
+.price-list__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 0 0 89px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.price-list__item {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.price-list__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}

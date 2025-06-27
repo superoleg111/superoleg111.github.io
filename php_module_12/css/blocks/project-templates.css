@@ -1,0 +1,40 @@
+.project-templates {
+  padding: 0 0 150px;
+}
+
+.priject-templates__heading {
+  margin: 0 0 70px;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 1;
+}
+
+.project-templates__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 67px;
+  margin: 0 0 72px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.project-templates__item {}
+
+.project-templates__card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: inherit;
+  border-radius: 20px;
+}
+
+.project-templates__heading {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.project-templates__card:hover .project-templates__heading {
+  text-decoration: underline;
+}

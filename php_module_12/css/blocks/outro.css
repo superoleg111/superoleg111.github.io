@@ -1,0 +1,21 @@
+.outro {
+  padding: 85px 0 141px;
+  color: #ffffff;
+  background-color: #3F2AFF;
+}
+
+.outro__heading {
+  margin: 0 0 102px;
+  width: 55%;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.3;
+}
+
+.outro__note {
+  margin: 0;
+  width: 50%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
